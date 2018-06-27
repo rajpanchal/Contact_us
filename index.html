@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <style media="screen">
+      .contact_us_1{
+        padding-top: 5px;
+        width:50%;
+        background-color: lightgrey;
+        display: inline-block;
+        padding-bottom: -5px;
+        height: 50%;
+      }
+      .photo{
+        background-color: blue
+        display: inline-block;
+      }
+      .row_first{
+          margin: none;
+          padding: none;
+      }
+      .button_submit_cont_us{
+        float: right;
+      }
+      .btn_cont_us{
+        background: #0000FF;
+        padding-left: 39px;
+        padding-right: 39px;
+        border-bottom: 1.5px #FFE808 solid;
+      }
+      .form_cont{
+        height: 25.95em;
+      }
+      @media only screen and (max-width: 768px) {
+
+        .contact_us_1{
+          display: block;
+          width: 100%;
+          margin-bottom: 10px;
+        }
+        .photo_cont_us{
+          display: block;
+          width: 691px;
+        }
+
+      }
+
+  </style>
+
+
+  <body>
+
+<div class="contact_us container">
+
+          <div class="contact_us_1">
+            <div class="row">
+              <div class="container">
+                <form class="col s12 form_cont">
+
+                  <div class="row row_first">
+                    <div class="input-field col s12">
+                      <input id="name" type="text" class="validate">
+                      <label for="name">Name</label>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="phoneno" type="text" class="validate">
+                      <label for="phoneno">Phone No.</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="text" type="text" class="validate">
+                      <label for="email">Message</label>
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+              <div class="button_submit_cont_us">
+                  <a class="waves-effect waves-light btn btn_cont_us">SUBMIT</a>
+              </div>
+            </div>
+          </div>
+
+          <span class="photo_cont_us">
+            <img src="cu.png" heigh="477px" width="49%">
+          </span>
+
+
+</div>
+
+
+    <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  </body>
+</html>
